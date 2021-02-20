@@ -15,9 +15,9 @@ body{
 
 .app{
    position: relative;
-   display: flex;
+   /* display: flex;
    justify-content: space-between;
-   flex-wrap: wrap;   
+   flex-wrap: wrap;*/   
    height: 600px;
    width: 700px;
    margin: 40px auto;
