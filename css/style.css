@@ -252,17 +252,29 @@ body{
 {
   .app
   {
-    position: relative;
     width: 300px;
     height: auto;
-    flex-direction: column;
-    align-items: center;
     margin: 30px auto 30px;
   }
   .app .option-box button
   {
     flex-basis: calc(50% - 30px);
     max-width:  calc(50% - 30px);
+    }
+}
+
+@media (max-width: 300px)
+{
+  .app
+  {
+    width: 100px;
+    height: auto;
+    margin: 30px auto 30px;
+  }
+  .app .option-box button
+  {
+    flex-basis: calc(25% - 30px);
+    max-width:  calc(25% - 30px);
     }
 }
 
